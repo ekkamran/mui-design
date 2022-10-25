@@ -8,6 +8,6 @@ export const theme = createTheme({
   },
   mybutton: {
     backgroundColor: '#fafafa',
-    color: '#111'
+    color: '#ff4040'
   }
 })

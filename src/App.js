@@ -1,18 +1,21 @@
 import { Button, makeStyles } from '@material-ui/core'
 
-const useStyles = makeStyles((theme) => ({
-  button: {
-    ...theme.mybutton
-  }
-}))
+// Import Components
+import Navbar from './components/Navbar'
+import Feed from './components/Feed'
+import Right from './components/Rightbar'
+import Left from './components/Leftbar'
+
+const useStyles = makeStyles((theme) => ({}))
 
 function App() {
   const classes = useStyles()
   return (
     <div>
-      <Button variant='contained' className={classes.button} size='large'>
-        سلام دنیا
-      </Button>
+      <Navbar />
+      <Right />
+      <Feed />
+      <Left />
     </div>
   )
 }

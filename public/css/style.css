@@ -6,7 +6,7 @@
 }
 
 * {
-  font-family: 'msi';
+  font-family: 'msi' !important;
 }
 
 body {
